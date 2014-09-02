@@ -26,6 +26,8 @@
 		885F9D9319B5D1100030C600 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F9D6B19B5D1100030C600 /* CoreData.framework */; };
 		885F9D9B19B5D1100030C600 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 885F9D9919B5D1100030C600 /* InfoPlist.strings */; };
 		885F9D9D19B5D1100030C600 /* TrainingOrganiserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 885F9D9C19B5D1100030C600 /* TrainingOrganiserTests.m */; };
+		885F9DA819B5E10C0030C600 /* OHTTraineesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 885F9DA719B5E10C0030C600 /* OHTTraineesViewController.m */; };
+		885F9DAB19B5E11E0030C600 /* OHTProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 885F9DAA19B5E11E0030C600 /* OHTProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		885F9D9819B5D1100030C600 /* TrainingOrganiserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrainingOrganiserTests-Info.plist"; sourceTree = "<group>"; };
 		885F9D9A19B5D1100030C600 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		885F9D9C19B5D1100030C600 /* TrainingOrganiserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainingOrganiserTests.m; sourceTree = "<group>"; };
+		885F9DA619B5E10C0030C600 /* OHTTraineesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHTTraineesViewController.h; sourceTree = "<group>"; };
+		885F9DA719B5E10C0030C600 /* OHTTraineesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHTTraineesViewController.m; sourceTree = "<group>"; };
+		885F9DA919B5E11E0030C600 /* OHTProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHTProfileViewController.h; sourceTree = "<group>"; };
+		885F9DAA19B5E11E0030C600 /* OHTProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHTProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +135,10 @@
 				885F9D7719B5D1100030C600 /* OHTAppDelegate.m */,
 				885F9D7919B5D1100030C600 /* Main_iPhone.storyboard */,
 				885F9D7C19B5D1100030C600 /* Main_iPad.storyboard */,
+				885F9DA619B5E10C0030C600 /* OHTTraineesViewController.h */,
+				885F9DA919B5E11E0030C600 /* OHTProfileViewController.h */,
+				885F9DAA19B5E11E0030C600 /* OHTProfileViewController.m */,
+				885F9DA719B5E10C0030C600 /* OHTTraineesViewController.m */,
 				885F9D8219B5D1100030C600 /* OHTMasterViewController.h */,
 				885F9D8319B5D1100030C600 /* OHTMasterViewController.m */,
 				885F9D8519B5D1100030C600 /* OHTDetailViewController.h */,
@@ -269,6 +279,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				885F9D8719B5D1100030C600 /* OHTDetailViewController.m in Sources */,
+				885F9DA819B5E10C0030C600 /* OHTTraineesViewController.m in Sources */,
+				885F9DAB19B5E11E0030C600 /* OHTProfileViewController.m in Sources */,
 				885F9D7819B5D1100030C600 /* OHTAppDelegate.m in Sources */,
 				885F9D8119B5D1100030C600 /* TrainingOrganiser.xcdatamodeld in Sources */,
 				885F9D8419B5D1100030C600 /* OHTMasterViewController.m in Sources */,
