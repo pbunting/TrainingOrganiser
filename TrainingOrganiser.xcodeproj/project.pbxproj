@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6115FBB619B6A845009CB497 /* OHTMenuMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6115FBB519B6A845009CB497 /* OHTMenuMasterViewController.m */; };
 		885F9D6619B5D1100030C600 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F9D6519B5D1100030C600 /* Foundation.framework */; };
 		885F9D6819B5D1100030C600 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F9D6719B5D1100030C600 /* CoreGraphics.framework */; };
 		885F9D6A19B5D1100030C600 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885F9D6919B5D1100030C600 /* UIKit.framework */; };
@@ -41,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6115FBB319B6A556009CB497 /* OHTMasterMenuOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OHTMasterMenuOptions.h; sourceTree = "<group>"; };
+		6115FBB419B6A845009CB497 /* OHTMenuMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHTMenuMasterViewController.h; sourceTree = "<group>"; };
+		6115FBB519B6A845009CB497 /* OHTMenuMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHTMenuMasterViewController.m; sourceTree = "<group>"; };
 		885F9D6219B5D1100030C600 /* TrainingOrganiser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainingOrganiser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		885F9D6519B5D1100030C600 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		885F9D6719B5D1100030C600 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -131,21 +135,24 @@
 		885F9D6D19B5D1100030C600 /* TrainingOrganiser */ = {
 			isa = PBXGroup;
 			children = (
+				885F9D8819B5D1100030C600 /* Images.xcassets */,
+				885F9D7C19B5D1100030C600 /* Main_iPad.storyboard */,
+				6115FBB419B6A845009CB497 /* OHTMenuMasterViewController.h */,
+				6115FBB519B6A845009CB497 /* OHTMenuMasterViewController.m */,
+				6115FBB319B6A556009CB497 /* OHTMasterMenuOptions.h */,
+				885F9D7919B5D1100030C600 /* Main_iPhone.storyboard */,
 				885F9D7619B5D1100030C600 /* OHTAppDelegate.h */,
 				885F9D7719B5D1100030C600 /* OHTAppDelegate.m */,
-				885F9D7919B5D1100030C600 /* Main_iPhone.storyboard */,
-				885F9D7C19B5D1100030C600 /* Main_iPad.storyboard */,
-				885F9DA619B5E10C0030C600 /* OHTTraineesViewController.h */,
-				885F9DA919B5E11E0030C600 /* OHTProfileViewController.h */,
-				885F9DAA19B5E11E0030C600 /* OHTProfileViewController.m */,
-				885F9DA719B5E10C0030C600 /* OHTTraineesViewController.m */,
-				885F9D8219B5D1100030C600 /* OHTMasterViewController.h */,
-				885F9D8319B5D1100030C600 /* OHTMasterViewController.m */,
 				885F9D8519B5D1100030C600 /* OHTDetailViewController.h */,
 				885F9D8619B5D1100030C600 /* OHTDetailViewController.m */,
-				885F9D8819B5D1100030C600 /* Images.xcassets */,
-				885F9D7F19B5D1100030C600 /* TrainingOrganiser.xcdatamodeld */,
+				885F9D8219B5D1100030C600 /* OHTMasterViewController.h */,
+				885F9D8319B5D1100030C600 /* OHTMasterViewController.m */,
+				885F9DA919B5E11E0030C600 /* OHTProfileViewController.h */,
+				885F9DAA19B5E11E0030C600 /* OHTProfileViewController.m */,
+				885F9DA619B5E10C0030C600 /* OHTTraineesViewController.h */,
+				885F9DA719B5E10C0030C600 /* OHTTraineesViewController.m */,
 				885F9D6E19B5D1100030C600 /* Supporting Files */,
+				885F9D7F19B5D1100030C600 /* TrainingOrganiser.xcdatamodeld */,
 			);
 			path = TrainingOrganiser;
 			sourceTree = "<group>";
@@ -281,6 +288,7 @@
 				885F9D8719B5D1100030C600 /* OHTDetailViewController.m in Sources */,
 				885F9DA819B5E10C0030C600 /* OHTTraineesViewController.m in Sources */,
 				885F9DAB19B5E11E0030C600 /* OHTProfileViewController.m in Sources */,
+				6115FBB619B6A845009CB497 /* OHTMenuMasterViewController.m in Sources */,
 				885F9D7819B5D1100030C600 /* OHTAppDelegate.m in Sources */,
 				885F9D8119B5D1100030C600 /* TrainingOrganiser.xcdatamodeld in Sources */,
 				885F9D8419B5D1100030C600 /* OHTMasterViewController.m in Sources */,
@@ -499,6 +507,7 @@
 				885F9DA219B5D1100030C600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		885F9DA319B5D1100030C600 /* Build configuration list for PBXNativeTarget "TrainingOrganiserTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +516,7 @@
 				885F9DA519B5D1100030C600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
